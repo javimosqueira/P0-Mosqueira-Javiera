@@ -1,0 +1,20 @@
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Editores e IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+
+# Archivos temporales
+*.tmp
