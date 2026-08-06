@@ -1,0 +1,15 @@
+{
+    "sistema_operativo": "Windows",
+    "version_sistema": "11",
+    "arquitectura": "AMD64",
+    "version_python": "3.14.7",
+    "version_numpy": "2.5.1",
+    "procesador": "Intel(R) Core(TM) Ultra 9 185H",
+    "nucleos_fisicos": 16,
+    "procesadores_logicos": 22,
+    "ram_total_bytes": 33733394432,
+    "ram_disponible_bytes": 17557909504,
+    "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU\nIntel(R) Arc(TM) Graphics",
+    "disco_total_bytes": 992238440448,
+    "disco_libre_bytes": 763386228736
+}
