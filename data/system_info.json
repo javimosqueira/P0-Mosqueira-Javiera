@@ -8,8 +8,8 @@
     "nucleos_fisicos": 16,
     "procesadores_logicos": 22,
     "ram_total_bytes": 33733394432,
-    "ram_disponible_bytes": 17557909504,
+    "ram_disponible_bytes": 15368560640,
     "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU\nIntel(R) Arc(TM) Graphics",
     "disco_total_bytes": 992238440448,
-    "disco_libre_bytes": 763386228736
+    "disco_libre_bytes": 765171224576
 }
