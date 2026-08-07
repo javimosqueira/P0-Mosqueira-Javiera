@@ -43,4 +43,6 @@ P0-Mosqueira-Javiera/
 - Ejecutar las pruebas después de modificar el código.
 - Prohibido crear matrices que puedan agotar la memoria.
 - Prohibido realizar operaciones destructivas de Git (force push, reset hard, etc.).
-- El estudiante debe revisar los cambios antes de realizar commits o push.
+- OpenCode no debe realizar commits ni push sin autorización explícita del usuario.
+- Prohibido subir claves de API, contraseñas, llaves SSH, tokens, credenciales o información privada al repositorio.
+
