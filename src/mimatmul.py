@@ -9,7 +9,7 @@ def mimatmul(A, B):
     if A.ndim != 2 or B.ndim != 2:
         raise ValueError("mimatmul solo acepta matrices bidimensionales")
 
-    filas_a, columnas_a = A.shape
+    filas_a, columnas_a = A.shape  #Dimensiones
     filas_b, columnas_b = B.shape
 
     if columnas_a != filas_b:
@@ -19,11 +19,11 @@ def mimatmul(A, B):
             f"a filas de B ({filas_b})"
         )
 
-    C = np.zeros((filas_a, columnas_b))
+    C = np.zeros((filas_a, columnas_b))  #Matriz de puros ceros
     for i in range(filas_a):
         for j in range(columnas_b):
             suma = 0.0
             for k in range(columnas_a):
-                suma += A[i, k] * B[k, j]
+                suma += A[i, k] * B[k, j]  #Posicion en el momento de ese ciclo
             C[i, j] = suma
     return C
