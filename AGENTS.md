@@ -31,7 +31,7 @@ P0-Mosqueira-Javiera/
 
 ## Comandos importantes
 
-- Ejecutar las pruebas: `pytest`
+- Ejecutar las pruebas: `python -m pytest`
 - Ejecutar el benchmark: `python src/benchmark.py`
 - Ejecutar la información del computador: `python src/system_info.py`
 
