@@ -118,13 +118,13 @@ gráfico en `figures/benchmark.png`.
 
 ## 7. Estado actual del proyecto
 
-| Etapa | Descripción | Estado |
-| --- | --- | --- |
-| 1 | Ambiente de desarrollo | Completada |
-| 2 | Información del computador | Completada |
-| 3 | `mimatmul` y pruebas automáticas | Completada (5 pruebas en verde) |
-| 4 | Benchmark y gráfico | Completada |
-| 5 | Documentación y revisión final | Completada |
+| Etapa | Descripción | Comando | Estado |
+| --- | --- | --- | --- |
+| 1 | Ambiente de desarrollo configurado (`.venv`) | `python -m venv .venv` + `.\.venv\Scripts\Activate.ps1` + `pip install -r requirements.txt` | Completada |
+| 2 | Información del computador (genera `data/system_info.json`) | `python src\system_info.py` | Completada |
+| 3 | `mimatmul` y pruebas automáticas | `python -m pytest tests\test_mimatmul.py` | Completada (5 pruebas en verde) |
+| 4 | Benchmark y gráfico (genera `data/benchmark_results.csv` y `figures/benchmark.png`) | `python src\benchmark.py` | Completada |
+| 5 | Documentación y revisión final | `python -m pytest` + `python src\benchmark.py` + `git status` + `git push` | Completada |
 
 ## 8. Observaciones de rendimiento
 
